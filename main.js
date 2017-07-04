@@ -39,7 +39,7 @@ document.getElementById('box').onclick=function(){
     time2=Date.now();
     this.style.display="none";
     time3=time2-time1;
-    document.getElementById('time').innerHTML=time3/1000;
+    document.getElementById('time').innerHTML="your reaction time is"+ time3/1000 "s";
     makeBox();
 
 
