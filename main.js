@@ -3,10 +3,10 @@ var time3;
 
 function setRandomPosition(){
   var number1 = Math.floor(Math.random()*400);
-  var number2 = Math.floor(Math.random()*400);
+  var number2 = Math.floor(Math.random()*60);
 
   var margin_top=number1+"px";
-  var margin_left=number2+"px";
+  var margin_left=number2+"vw";
 
   document.getElementById("box").style.marginLeft=margin_left;
   document.getElementById("box").style.marginTop=margin_top;
