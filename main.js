@@ -2,8 +2,8 @@ var time1; var time2;
 var time3;
 
 function setRandomPosition(){
-  var number1 = Math.floor(Math.random()*600);
-  var number2 = Math.floor(Math.random()*600);
+  var number1 = Math.floor(Math.random()*400);
+  var number2 = Math.floor(Math.random()*400);
 
   var margin_top=number1+"px";
   var margin_left=number2+"px";
